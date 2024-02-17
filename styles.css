@@ -1,0 +1,74 @@
+/* 
+font-family: 'Allura', cursive;
+font-family: 'Caramel', cursive; 
+*/
+
+body {
+    background-color: cadetblue;
+}
+
+/* ********** HEADER ************* */
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(250, 235, 215);
+    background-image: linear-gradient(rgb(235, 246, 156), rgb(231, 168, 52));
+    color: darkcyan;
+    font-family: 'Caramel', cursive;
+}
+
+.headerH1 {
+    font-family: 'Arial';
+    font-size: 40px;
+}
+
+.headerP {
+    font-family: 'Allura', cursive;
+    font-size: 24px;
+}
+
+img {
+    border: 1.5px solid rgb(11, 11, 40);
+}
+
+/* *************** MAIN ************** */
+/* this is changing the height of the page so it can scroll */
+main {
+    height: 1000px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro {
+    max-width: 500px;
+    text-align: left;
+}
+
+
+
+
+
+footer {
+    background-color: #EEEAE0;
+    /* hsl(38, 21%, 7%); */
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #B02C91;
+}
+
+.aboutMeSection {
+    background-color: darkcyan;
+}
