@@ -2,9 +2,10 @@
 font-family: 'Allura', cursive;
 font-family: 'Caramel', cursive; 
 */
+/* font color: copper */
 
 body {
-    background-color: cadetblue;
+    background-color: #EEEAE0;
 }
 
 /* ********** HEADER ************* */
@@ -13,13 +14,13 @@ header {
     top: 0;
     background-color: rgb(250, 235, 215);
     background-image: linear-gradient(rgb(235, 246, 156), rgb(231, 168, 52));
-    color: darkcyan;
+    color: #9E6649;
     font-family: 'Caramel', cursive;
 }
 
 .headerH1 {
     font-family: 'Allura', cursive;
-    font-size: 80px;
+    font-size: 90px;
 }
 
 .headerP {
@@ -66,7 +67,7 @@ footer {
 }
 
 a {
-    color: #B02C91;
+    color: #4A4B4C;
 }
 
 .aboutMeSection {
