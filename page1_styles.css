@@ -1,0 +1,19 @@
+/* 
+font color: copper: #9E6649  rgb (158, 102, 73)
+font color: wrought iron: #4A4B4C  rgb (74, 75, 76)
+page color: alabaster:  #EEEAE0  rgb (238, 234, 224)
+*/
+
+body {
+    background-color: #EEEAE0;
+}
+
+/* ********** HEADER ************* */
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(74, 75, 76);
+    background-image: rgb(74, 75, 76));
+    color: #9E6649;
+    font-family: 'Caramel', cursive;
+}

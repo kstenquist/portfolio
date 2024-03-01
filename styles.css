@@ -33,7 +33,7 @@ header {
 }
 
 img {
-    border: 1.5px solid (158, 102, 73);
+    border: 5.5px solid (158, 102, 73);
     /* rgb(11, 11, 40); (this is for a black border color)*/
 }
 
@@ -55,9 +55,6 @@ main {
 }
 
 
-
-
-
 footer {
     background-color: #EEEAE0;
     /* hsl(38, 21%, 7%); */
@@ -76,5 +73,5 @@ a {
 }
 
 .aboutMeSection {
-    background-color: darkcyan;
+    background-color: #9E6649;
 }
