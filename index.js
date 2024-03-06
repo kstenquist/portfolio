@@ -1,4 +1,4 @@
-const red = 250;
+/*const red = 250;
 const green = 235;
 const blue = 215;
 
@@ -18,4 +18,4 @@ function changeColor() {
 }
 changeColor();
 
-window.addEventListener('scroll', changeColor);* /
+window.addEventListener('scroll', changeColor);*/
