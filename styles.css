@@ -75,7 +75,7 @@ a {
 
 .aboutMeSection {
     background-color: #9E6649;
-    font-family: 'Montserrat', print;
-    font-weight: '100';
-    font-style: normal;
+    font-style: 'Open Sans';
+    font-size: small;
+    font-weight: 100;
 }
