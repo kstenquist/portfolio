@@ -18,4 +18,4 @@ function changeColor() {
 }
 changeColor();
 
-window.addEventListener('scroll', changeColor);
+window.addEventListener('scroll', changeColor);* /

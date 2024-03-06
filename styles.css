@@ -1,5 +1,5 @@
 /* 
-font-family: 'Allura', cursive;
+font-family: 'Allura', cursive; (preferred header font)
 font-family: 'Caramel', cursive; 
 font-family: 
 */
@@ -17,10 +17,10 @@ body {
 header {
     position: sticky;
     top: 0;
-    /* background-color: rgb(74, 75, 76); */
+    background-color: rgb(74, 75, 76);
     /* background-image: linear-gradient(rgb(238, 234, 224), rgb(74, 75, 76)); */
     color: #9E6649;
-    font-family: 'Caramel', cursive;
+    font-family: 'Allura', cursive;
 }
 
 .headerH1 {
@@ -41,7 +41,7 @@ img {
 /* *************** MAIN ************** */
 /* this is changing the height of the page so it can scroll */
 main {
-    height: 1000px;
+    height: 100%;
 }
 
 .title {
