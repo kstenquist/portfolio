@@ -1,6 +1,7 @@
 /* 
 font-family: 'Allura', cursive;
 font-family: 'Caramel', cursive; 
+font-family: 
 */
 /* 
 font color: copper: #9E6649  rgb (158, 102, 73)
@@ -16,8 +17,8 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: rgb(74, 75, 76);
-    background-image: linear-gradient(rgb(238, 234, 224), rgb(74, 75, 76));
+    /* background-color: rgb(74, 75, 76); */
+    /* background-image: linear-gradient(rgb(238, 234, 224), rgb(74, 75, 76)); */
     color: #9E6649;
     font-family: 'Caramel', cursive;
 }
