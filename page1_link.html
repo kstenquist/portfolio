@@ -15,44 +15,36 @@
 
 </html>
 
-
-*******************
 <!-- fluttering butterfly code copied -->
-<!DOCTYPE html>
-<html lang="en">
+<title>Fluttering Butterfly</title>
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+        background-color: #EEEAE0;
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fluttering Butterfly</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            background-color: #87CEEB;
-            /* Sky Blue */
+    }
+
+    .butterfly {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FF69B4;
+        /* Pink */
+        border-radius: 50%;
+        animation: fluttering 2s infinite alternate ease-in-out;
+    }
+
+    @keyframes fluttering {
+        0% {
+            transform: translateY(0) rotate(0);
         }
 
-        .butterfly {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            background-color: #FF69B4;
-            /* Pink */
-            border-radius: 50%;
-            animation: fluttering 2s infinite alternate ease-in-out;
+        100% {
+            transform: translateY(-20px) rotate(20deg);
         }
-
-        @keyframes fluttering {
-            0% {
-                transform: translateY(0) rotate(0);
-            }
-
-            100% {
-                transform: translateY(-20px) rotate(20deg);
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 
 <body>
