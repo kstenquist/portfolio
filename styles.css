@@ -52,17 +52,25 @@ main {
 
 nav {
     display: flex;
-    align-items: left;
+    /* align-items: left; */
     justify-content: left;
+    /* padding-left: 0px; */
+    /* padding-right: 0px; */
     /* padding-top: 20px;
     padding-right: 10%;
     padding-left: 10%;*/
+}
+
+ul {
+    margin: 0px;
+    padding-bottom: 15px;
 }
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 15px;
+
 }
 
 nav ul li a {
