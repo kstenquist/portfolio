@@ -1,6 +1,6 @@
-/*const red = 250;
-const green = 235;
-const blue = 215;
+/*const red = 238;
+const green = 234;
+const blue = 224;
 
 const header = document.getElementById("header");
 console.log(header.innerText);
