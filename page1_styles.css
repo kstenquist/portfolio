@@ -62,18 +62,28 @@ main {
 
 .panel {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* 1fr, 1fr, 1fr creates 3 equal columns*/
 }
 
 /* left panel */
-.panel.left_panel {
+.panel .left_panel {
     background: #9E6649;
     padding: 30px 60px;
     grid-auto-rows: 1fr;
+    /*this is taken out in chatgpt*/
 }
 
 /* center panel */
-.panel.center_panel;
+.panel .center_panel {
+    background: #ABCDEF;
+    /* Add your background color */
+    padding: 30px 60px;
+}
 
 /* right panel */
-.panel.right_panel;
+.panel .right_panel {
+    background: #FEDCBA;
+    /* Add your background color */
+    padding: 30px 60px;
+}
