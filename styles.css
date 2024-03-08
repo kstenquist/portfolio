@@ -52,8 +52,10 @@ nav {
     display: flex;
     /* align-items: center;
     justify-content: flex-start; */
-    align-items: left;
-    justify-content: left;
+    /* align-items: left;
+    justify-content: left; */
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 ul {
