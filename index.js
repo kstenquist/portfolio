@@ -1,6 +1,6 @@
-/*const red = 238;
-const green = 234;
-const blue = 224;
+const red = 74;
+const green = 75;
+const blue = 76;
 
 const header = document.getElementById("header");
 console.log(header.innerText);
@@ -18,4 +18,4 @@ function changeColor() {
 }
 changeColor();
 
-window.addEventListener('scroll', changeColor);*/
+window.addEventListener('scroll', changeColor);
