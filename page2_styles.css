@@ -1,4 +1,8 @@
 /* 
+font-family: 'Allura', cursive; (preferred header font)
+font-family: 'Caramel', cursive; (I don't think this one is being used)
+font-family: 'Montserrat', print; (preferred nav bar font)
+
 font color: copper: #9E6649  rgb (158, 102, 73)
 font color: wrought iron: #4A4B4C  rgb (74, 75, 76)
 page color: alabaster:  #EEEAE0  rgb (238, 234, 224)
@@ -55,7 +59,6 @@ nav ul li a:hover {
     height: 70vh;
     background-image: url(assets/balloons.jpg);
     background-size: cover;
-    /* border-radius: 30px; */
     margin-left: 80px;
 }
 
@@ -63,16 +66,27 @@ nav ul li a:hover {
     grid-column: 2/3;
     grid-row: 2;
     padding: 10px;
+    font-family: 'Allura', cursive;
+    color: #9E6649;
 }
 
 .sidebar-title {
-    font-size: 35px;
-    font-weight: 400;
-    padding-left: 65px;
+    font-size: 65px;
+    font-weight: 300;
+    padding-left: 215px;
     width: 475px;
     border-bottom: 5px solid #9E6649;
-    font-family: 'Allura', sans-serif;
+    font-family: 'Allura', cursive;
     color: #4A4B4C;
+}
+
+.sidebar-list {
+    font-family: 'Montserrat', print;
+    font-weight: 200px;
+    padding-lef: 250px;
+    width: 350px;
+    color: #9E6649;
+
 }
 
 .sidebar-tagline {
@@ -83,4 +97,5 @@ nav ul li a:hover {
     margin-top: 50px;
     padding-right: 30px;
     width: 475px;
+    font-family: 'Allura', cursive;
 }
