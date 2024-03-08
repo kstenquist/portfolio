@@ -17,6 +17,11 @@ nav {
     padding-left: 10%;*/
 }
 
+nav ul {
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
 nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -28,7 +33,7 @@ nav ul li a {
     font-family: 'Open Sans';
     font-weight: lighter;
     font-size: medium;
-
+    text-decoration: none;
 }
 
 nav ul li a:hover {
