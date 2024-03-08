@@ -57,6 +57,7 @@ nav ul li a:hover {
     grid-column: 1/2;
     grid-row: 2;
     height: 70vh;
+    width: 85%;
     background-image: url(assets/balloons.jpg);
     background-size: cover;
     margin-left: 80px;
