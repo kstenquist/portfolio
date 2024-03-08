@@ -106,9 +106,8 @@ nav ul li a:hover {
     line-height-step: 5px;
     color: #392824;
     padding-left: 30px;
-    /* padding-top: 30px; */
-    /* padding-bottom: 20px; */
-    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-right: 30px;
     width: 475px;
     border-bottom: 5px solid #9E6649;
