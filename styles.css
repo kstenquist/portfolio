@@ -81,6 +81,14 @@ nav ul li a:hover {
     color: #9E6649
 }
 
+.home_button_style {
+    color: #4A4B4C;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-size: medium;
+    text-decoration: none;
+}
+
 .intro {
     max-width: 500px;
     text-align: center;
