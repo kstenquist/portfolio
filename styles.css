@@ -33,7 +33,7 @@ header {
 }
 
 img {
-    border: 5.5px solid (158, 102, 73);
+    /* border: 1.5px solid rgb(158, 102, 73); */
 }
 
 /* *************** MAIN ************** */
@@ -50,13 +50,17 @@ main {
 
 nav {
     display: flex;
-    /* align-items: left; */
+    /* align-items: center;
+    justify-content: flex-start; */
+    align-items: left;
     justify-content: left;
 }
 
 ul {
     margin: 0px;
     padding-bottom: 15px;
+    /* margin: 0;
+    padding: 0; */
 }
 
 nav ul li {
