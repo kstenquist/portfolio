@@ -40,3 +40,47 @@ nav ul li a {
 nav ul li a:hover {
     color: #9E6649
 }
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 60vw 40vw;
+    height: 90vh;
+    width: 100%
+}
+
+10:25 .main-container {
+    grid-column: 1/2;
+    grid-row: 2;
+    height: 70vh;
+    background-image: url(../assets/100.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    margin-left: 80px;
+}
+
+10:26 .sidebar-container {
+    grid-column: 2/3;
+    grid-row: 2;
+    padding: 10px;
+}
+
+10:26 .sidebar-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 30px;
+    width: 475px;
+    border-bottom: 5px solid #F46C73;
+    font-family: 'Twister', sans-serif;
+    color: #392824;
+}
+
+.sidebar-tagline {
+    font-size: 30px;
+    line-height: 35px;
+    color: #392824;
+    padding-left: 30px;
+    margin-top: 50px;
+    padding-right: 30px;
+    width: 475px;
+}
