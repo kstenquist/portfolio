@@ -110,9 +110,14 @@ a {
     color: #4A4B4C;
 }
 
-.aboutMeSection {
+.quote {
     /* background-color: #9E6649; */
     font-style: 'Open Sans';
-    font-size: small;
+    font-size: 40px;
     font-weight: 100;
+    color: #4A4B4C;
+    padding: 100px 120px;
+
+
+
 }
