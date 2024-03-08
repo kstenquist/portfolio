@@ -20,13 +20,17 @@ header {
 
 nav {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    margin: 0;
-    padding: 0;
-    /* padding-top: 20px;
-    padding-right: 10%;
-    padding-left: 10%;*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* align-items: left;
+    justify-content: left; */
+}
+
+ul {
+    margin: 0px;
+    padding-bottom: 15px;
+    /* margin: 0;
+    padding: 0; */
 }
 
 nav ul li {
@@ -40,7 +44,7 @@ nav ul li a {
     font-family: 'Open Sans';
     font-weight: lighter;
     font-size: medium;
-
+    text-decoration: none;
 }
 
 nav ul li a:hover {

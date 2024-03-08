@@ -50,12 +50,12 @@ main {
 
 nav {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     /* align-items: center;
     justify-content: flex-start; */
     /* align-items: left;
     justify-content: left; */
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
 ul {
@@ -69,7 +69,6 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 15px;
-
 }
 
 nav ul li a {
@@ -78,7 +77,6 @@ nav ul li a {
     font-weight: lighter;
     font-size: medium;
     text-decoration: none;
-
 }
 
 nav ul li a:hover {
@@ -90,7 +88,6 @@ nav ul li a:hover {
     text-align: center;
 }
 
-
 footer {
     background-color: #9E6649;
     /* hsl(38, 21%, 7%); */
@@ -98,7 +95,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .centered {
