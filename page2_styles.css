@@ -66,13 +66,13 @@ nav ul li a:hover {
 }
 
 .sidebar-title {
-    font-size: 50px;
-    font-weight: bold;
-    padding-left: 30px;
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 65px;
     width: 475px;
-    border-bottom: 5px solid #F46C73;
-    font-family: 'Twister', sans-serif;
-    color: #392824;
+    border-bottom: 5px solid #9E6649;
+    font-family: 'Allura', sans-serif;
+    color: #4A4B4C;
 }
 
 .sidebar-tagline {
