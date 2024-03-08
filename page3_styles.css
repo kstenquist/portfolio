@@ -39,3 +39,72 @@ nav ul li a {
 nav ul li a:hover {
     color: #9E6649
 }
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 60vw 40vw;
+    height: 90vh;
+    width: 100%
+}
+
+.main-container {
+    grid-column: 1/2;
+    grid-row: 2;
+    height: 70vh;
+    width: 85%;
+    background-image: url(assets/balloons.jpg);
+    background-size: cover;
+    margin-left: 80px;
+}
+
+.sidebar-container {
+    grid-column: 2/3;
+    grid-row: 2;
+    padding: 10px;
+    font-family: 'Allura', cursive;
+    color: #9E6649;
+}
+
+/* .sidebar-title {
+    font-size: 95px;
+    font-weight: 300;
+    padding-left: 180px;
+    width: 365px;
+    border-bottom: 5px solid #9E6649;
+    font-family: 'Allura', cursive;
+    color: #4A4B4C;
+ } */
+
+.sidebar-title {
+    font-size: 75px;
+    font-weight: 300;
+    padding-left: 15px;
+    width: 500px;
+    border-bottom: 5px solid #9E6649;
+    font-family: 'Allura', cursive;
+    color: #4A4B4C;
+}
+
+.sidebar-list {
+    font-family: 'Montserrat', print;
+    font-weight: 150px;
+    font-size: 30px;
+    padding-left: 65px;
+    padding-top: 45px;
+    width: 350px;
+    /* width: 100%; */
+    color: #9E6649;
+    list-style: inside;
+}
+
+.sidebar-tagline {
+    font-size: 30px;
+    line-height: 35px;
+    color: #392824;
+    padding-left: 30px;
+    margin-top: 50px;
+    padding-right: 30px;
+    width: 475px;
+    font-family: 'Allura', cursive;
+}

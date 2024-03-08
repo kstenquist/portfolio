@@ -72,10 +72,10 @@ nav ul li a:hover {
 }
 
 .sidebar-title {
-    font-size: 95px;
+    font-size: 65px;
     font-weight: 300;
-    padding-left: 180px;
-    width: 365px;
+    /* padding-left: 15px; */
+    width: 165px;
     border-bottom: 5px solid #9E6649;
     font-family: 'Allura', cursive;
     color: #4A4B4C;
@@ -88,7 +88,6 @@ nav ul li a:hover {
     width: 350px;
     color: #9E6649;
     list-style: inside;
-
 }
 
 .sidebar-tagline {
