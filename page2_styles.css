@@ -71,11 +71,21 @@ nav ul li a:hover {
     color: #9E6649;
 }
 
-.sidebar-title {
-    font-size: 65px;
+/* .sidebar-title {
+    font-size: 95px;
     font-weight: 300;
-    /* padding-left: 15px; */
-    width: 165px;
+    padding-left: 180px;
+    width: 365px;
+    border-bottom: 5px solid #9E6649;
+    font-family: 'Allura', cursive;
+    color: #4A4B4C;
+ } */
+
+.sidebar-title {
+    font-size: 75px;
+    font-weight: 300;
+    padding-left: 15px;
+    width: 500px;
     border-bottom: 5px solid #9E6649;
     font-family: 'Allura', cursive;
     color: #4A4B4C;
