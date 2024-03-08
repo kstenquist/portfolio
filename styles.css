@@ -15,8 +15,8 @@ body {
 
 /* ********** HEADER ************* */
 header {
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     background-color: rgb(74, 75, 76);
     color: #9E6649;
     font-family: 'Allura', cursive;
@@ -52,6 +52,10 @@ nav {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    background-color: #EEEAE0;
+
     /* align-items: center;
     justify-content: flex-start; */
     /* align-items: left;

@@ -49,23 +49,23 @@ nav ul li a:hover {
     width: 100%
 }
 
-10:25 .main-container {
+.main-container {
     grid-column: 1/2;
     grid-row: 2;
     height: 70vh;
-    background-image: url(../assets/100.jpg);
+    background-image: url(assets/balloons.jpg);
     background-size: cover;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     margin-left: 80px;
 }
 
-10:26 .sidebar-container {
+.sidebar-container {
     grid-column: 2/3;
     grid-row: 2;
     padding: 10px;
 }
 
-10:26 .sidebar-title {
+.sidebar-title {
     font-size: 50px;
     font-weight: bold;
     padding-left: 30px;
