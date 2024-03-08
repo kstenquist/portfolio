@@ -33,7 +33,7 @@ header {
 }
 
 img {
-    /* border: 1.5px solid rgb(158, 102, 73); */
+    border: none;
 }
 
 /* *************** MAIN ************** */
