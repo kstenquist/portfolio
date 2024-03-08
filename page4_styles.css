@@ -1,0 +1,45 @@
+/* 
+font-family: 'Allura', cursive; (preferred header font)
+font-family: 'Caramel', cursive; (I don't think this one is being used)
+font-family: 'Montserrat', print; (preferred nav bar font)
+
+font color: copper: #9E6649  rgb (158, 102, 73)
+font color: wrought iron: #4A4B4C  rgb (74, 75, 76)
+page color: alabaster:  #EEEAE0  rgb (238, 234, 224)
+*/
+
+body {
+    background-color: #EEEAE0;
+}
+
+nav {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    /* padding-top: 20px;
+    padding-right: 10%;
+    padding-left: 10%;*/
+}
+
+ul {
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: #4A4B4C;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-size: medium;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #9E6649
+}
