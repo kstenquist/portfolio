@@ -122,7 +122,14 @@ a {
     font-weight: 100;
     color: #4A4B4C;
     padding: 100px 120px;
+    line-height: 1.5;
+    text-align: justify;
+}
 
-
-
+.author {
+    font-style: 'Open Sans';
+    font-size: 35px;
+    font-weight: 90;
+    color: #4A4B4C;
+    text-align: right;
 }
