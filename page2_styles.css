@@ -16,10 +16,6 @@ nav {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    /* align-items: center;
-    justify-content: flex-start; */
-    /* align-items: left;
-    justify-content: left; */
 }
 
 ul {
@@ -71,34 +67,11 @@ nav ul li a:hover {
     color: #9E6649;
 }
 
-/* .sidebar-title {
-    font-size: 95px;
-    font-weight: 300;
-    padding-left: 180px;
-    width: 365px;
-    border-bottom: 5px solid #9E6649;
-    font-family: 'Allura', cursive;
-    color: #4A4B4C;
- } */
-
 .sidebar-title {
-    /* font-size: 75px;
-    font-weight: 300; */
     padding-left: 15px;
     width: 500px;
     border-bottom: 5px solid #9E6649;
-    /* font-family: 'Allura', cursive;
-    color: #4A4B4C; */
 }
-
-/* .sidebar-list {
-    font-family: 'Montserrat', print;
-    font-weight: 150px;
-    padding-left: 65px;
-    width: 350px;
-    color: #9E6649;
-    list-style: inside;
-} */
 
 .sidebar-tagline {
     font-size: 45px;
