@@ -55,11 +55,6 @@ nav {
     position: sticky;
     top: 0;
     background-color: #EEEAE0;
-
-    /* align-items: center;
-    justify-content: flex-start; */
-    /* align-items: left;
-    justify-content: left; */
 }
 
 ul {
@@ -100,7 +95,6 @@ nav ul li a:hover {
 
 footer {
     background-color: #9E6649;
-    /* hsl(38, 21%, 7%); */
     height: 60px;
     display: flex;
     justify-content: space-evenly;
@@ -116,7 +110,6 @@ a {
 }
 
 .quote {
-    /* background-color: #9E6649; */
     font-style: 'Open Sans';
     font-size: 40px;
     font-weight: 100;
