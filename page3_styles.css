@@ -83,18 +83,6 @@ nav ul li a:hover {
     padding-left: 65px;
     padding-top: 45px;
     width: 350px;
-    /* width: 100%; */
     color: #9E6649;
     list-style: inside;
-}
-
-.sidebar-tagline {
-    font-size: 30px;
-    line-height: 35px;
-    color: #392824;
-    padding-left: 30px;
-    margin-top: 50px;
-    padding-right: 30px;
-    width: 475px;
-    font-family: 'Allura', cursive;
 }
