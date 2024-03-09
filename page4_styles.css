@@ -67,7 +67,7 @@ nav ul li a:hover {
 }
 
 .sidebar-title {
-    font-size: 95px;
+    font-size: 65px;
     font-weight: 300;
     padding-left: 180px;
     width: 365px;
@@ -80,9 +80,11 @@ nav ul li a:hover {
     font-family: 'Montserrat', print;
     font-weight: 150px;
     font-size: 30px;
-    padding-left: 65px;
-    padding-top: 45px;
-    width: 350px;
+    /* padding-left: 65px;
+    padding-top: 45px; */
+    margin-left: 0;
+    padding: 0;
+    width: 450px;
     color: #9E6649;
     list-style: inside;
 }
