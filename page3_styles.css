@@ -80,8 +80,9 @@ nav ul li a:hover {
     font-family: 'Montserrat', print;
     font-weight: 150px;
     font-size: 30px;
-    padding-left: 65px;
-    padding-top: 45px;
+    /* padding-left: 65px;
+    padding-top: 45px; */
+    margin-left: 0;
     width: 350px;
     color: #9E6649;
     list-style: inside;
