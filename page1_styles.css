@@ -42,32 +42,23 @@ nav ul li a:hover {
     grid-template-rows: 1fr 5fr 1fr;
     grid-template-columns: 60vw 40vw;
     height: 90vh;
-    /* width: 100% */
 }
 
 .main-container {
     grid-column: 1/2;
     grid-row: 2;
-    /* height: 70vh; */
-    /* width: 85%; */
     margin-left: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     max-height: 85%;
     max-width: 85%;
-    /* max-height: 100%;
-    max-width: 100%; */
-
-
 }
 
 .sidebar-container {
     grid-column: 2/3;
     grid-row: 2;
     padding: 10px;
-    /* font-family: 'Allura', cursive;
-    color: #9E6649; */
 }
 
 .sidebar-title {
