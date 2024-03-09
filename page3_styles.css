@@ -12,9 +12,6 @@ nav {
     display: flex;
     align-items: left;
     justify-content: left;
-    /* padding-top: 20px;
-    padding-right: 10%;
-    padding-left: 10%;*/
 }
 
 nav ul {
@@ -53,8 +50,6 @@ nav ul li a:hover {
     grid-row: 2;
     height: 70vh;
     width: 85%;
-    background-image: url(assets/balloons.jpg);
-    background-size: cover;
     margin-left: 80px;
 }
 
@@ -62,8 +57,6 @@ nav ul li a:hover {
     grid-column: 2/3;
     grid-row: 2;
     padding: 10px;
-    /* font-family: 'Allura', cursive;
-    color: #9E6649; */
 }
 
 .sidebar-title {
@@ -80,8 +73,6 @@ nav ul li a:hover {
     font-family: 'Montserrat', print;
     font-weight: 400;
     font-size: 30px;
-    /* padding-left: 65px;
-    padding-top: 45px; */
     margin-left: 0;
     width: 350px;
     color: #9E6649;
